@@ -214,6 +214,11 @@
          <Property>NOT NULL</Property>
       </Column>
       <Column>
+         <Name>date_dernier_certificat</Name>
+         <Type>DATETIME</Type>
+         <Property>NOT NULL</Property>
+      </Column>
+      <Column>
          <Name>nom</Name>
          <Type>VARCHAR(50)</Type>
          <Property>NOT NULL</Property>
@@ -365,37 +370,6 @@
       <FK>
          <Key>idO</Key>
          <Reference>Organisation(idO)</Reference>
-      </FK>
-   </Table>
-   <Table>
-      <Name>Certificat_Entretient</Name>
-      <Column>
-         <Name>idCE</Name>
-         <Type>INT</Type>
-      </Column>
-      <Column>
-         <Name>idM</Name>
-         <Type>INT</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <Column>
-         <Name>idT</Name>
-         <Type>INT</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <PK>
-         <Key>idCE</Key>
-      </PK>
-      <AK>
-         <Key>idM</Key>
-      </AK>
-      <FK>
-         <Key>idM</Key>
-         <Reference>Machine(idM)</Reference>
-      </FK>
-      <FK>
-         <Key>idT</Key>
-         <Reference>Tenrac(idT)</Reference>
       </FK>
    </Table>
    <Table>
