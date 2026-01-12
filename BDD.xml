@@ -51,6 +51,7 @@
       <Column>
          <Name>nom</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <PK>
          <Key>siret</Key>
@@ -75,6 +76,7 @@
       <Column>
          <Name>intitule</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <PK>
          <Key>idR</Key>
@@ -89,6 +91,7 @@
       <Column>
          <Name>nom_ingredient</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <PK>
          <Key>idI</Key>
@@ -141,6 +144,7 @@
       <Column>
          <Name>nom_territoire</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <PK>
          <Key>idT</Key>
@@ -207,6 +211,7 @@
       <Column>
          <Name>nom_machine</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>nom</Name>
@@ -230,10 +235,12 @@
       <Column>
          <Name>nom_organisation</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>type</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>idT</Name>
@@ -256,22 +263,27 @@
       <Column>
          <Name>nom</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>courriel</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>numero_de_telephone</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>adresse_postale</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>organisme_associe</Name>
          <Type>VARCHAR(50)</Type>
+         <Property>NOT NULL</Property>
       </Column>
       <Column>
          <Name>nom_dignite</Name>
